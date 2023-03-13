@@ -1,5 +1,13 @@
+html{
+    height: 100%;
+}
+
 body{
-    background-color:#bd8181 ;
+    background-color:#fae3d9 ;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
     
 }
 
@@ -20,3 +28,15 @@ body{
     background-color: rgb(210, 210, 210);
     outline-color: red;
 }
+
+*{
+    margin: 0px;
+}
+
+.form-wrapper{
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
