@@ -1,0 +1,22 @@
+body{
+    background-color:#bd8181 ;
+    
+}
+
+#email{
+    border-color: black;
+    background-color: rgb(210, 210, 210);
+    outline-color: red;
+}
+
+#message{
+    border-color: black;
+    background-color: rgb(210, 210, 210);
+    outline-color: red;
+}
+
+#name{
+    border-color: black;
+    background-color: rgb(210, 210, 210);
+    outline-color: red;
+}

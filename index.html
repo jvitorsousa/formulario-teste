@@ -2,25 +2,27 @@
 <html>
     <head>
         <title>Contato</title>
+        <link rel="stylesheet" href="stilos.css">
     </head>
     <body>
-        <h1>Formulario de contato</h1>
-        <form >
+        <h1>Formulario de contato</h1>  
+        <form id="contact-form" >
             <div>
                 <label for="name"> Nome</label>
-                <input id="name" type="text" name="name">
+                <input id="name" type="text" name="name" required>
             <div>
             <div>
                 <label for="email">E-mail</label>
-                <input type="email"name="email">
+                <input type="email" id ="email" name="email" required>
+                
             <div>
                 <label for="message">Mensagem</label>
-               <textarea name="message" ></textarea>
+               <textarea name="message" id="message"></textarea required>
             <div>
                 <button type="submit">enviar</button>
-            
         </form>
-      
+        <script src="script.js"></script>
+    
     </body>
 
 </html>
